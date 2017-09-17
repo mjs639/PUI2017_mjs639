@@ -6,14 +6,15 @@ Using this alias, I am now able to directly enter the PUI2017 directory with min
 
 Below is a screenshot of my bash_profile showing the environmental variable and alias:
 
-![Alt text](/Users/Matthew/Desktop/CUSP Screenshots/bash_profile_edit.png)
+![Alt text](CUSP Screenshots/bash_profile_edit.png)
 
 Below is a sreenshot showcasing the usage of the alias:
 
-![Alt text](/Users/Matthew/Desktop/CUSP Screenshots/pwd_showcase.png)
+![Alt text](CUSP Screenshots/pwd_showcase.png)
 
 One thing that has me confused is the fact that, when opening the bash_profile for editing (via 'nan0 ~/.bash_profile') I am able to see the image included above. However, when I open the file outside of this method, or if I call 'head bash_profile' or 'tail bash_profile' I get the following:
 
-![Alt text](/Users/Matthew/Desktop/CUSP Screenshots/bash_profile_file.png)
+![Alt text](CUSP Screenshots/bash_profile_file.png)
 
 The environmental variable and alias are both working properly, but I can't figure out why they do not appear. 
+
