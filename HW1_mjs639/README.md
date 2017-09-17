@@ -6,7 +6,7 @@ Using this alias, I am now able to directly enter the PUI2017 directory with min
 
 Below is a screenshot of my bash_profile showing the environmental variable and alias:
 
-![alt text](https://github.com/mjs639/PUI2017_mjs639/blob/master/HW1_mjs639/CUSP%20Screenshots/bash_profile_edit.png)
+![alt text](https://github.com/mjs639/PUI2017_mjs639/blob/master/HW1_mjs639/CUSP%20Screenshots/bash_profile_edit2.png)
 
 Below is a sreenshot showcasing the usage of the alias:
 
