@@ -1,4 +1,4 @@
-# PUI2017_mjs639
+# HW1_mjs639
 
 For this assignment, I embedded several directories (CUSP, Courses, and PUI2017) in order to keep my documents for this course and future courses organized. I used the export function to create an environmental variable ($PUI2017), and used this variable to create an alias (pui2017)
 
