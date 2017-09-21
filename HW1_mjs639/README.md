@@ -1,20 +1,7 @@
 # HW1_mjs639
 
-For this assignment, I embedded several directories (CUSP, Courses, and PUI2017) in order to keep my documents for this course and future courses organized. I used the export function to create an environmental variable ($PUI2017), and used this variable to create an alias (pui2017)
+Assignment #3
 
-Using this alias, I am now able to directly enter the PUI2017 directory with minimal keystrokes.
+For this assignment, I worked alongside Sam Ovenshine, Kent Pan, and Valeria Schiavon. We all worked independently for the most part, but Sam was instrumental in helping me figure out the 'for' loops in the code. Valeria and I also cross-referenced our code at the end. We discovered that, if we used the same values for 'sigma' and 'mu', used the same formula for adjusting the means, and defined our colors the same way, not only was our graph perfectly identical, but the colors used also aligned perfectly. This, to me, was an indication that the results were actually reproducible.
 
-Below is a screenshot of my bash_profile showing the environmental variable and alias:
-
-![alt text](https://github.com/mjs639/PUI2017_mjs639/blob/master/HW1_mjs639/CUSP%20Screenshots/bash_profile_edit2.png)
-
-Below is a sreenshot showcasing the usage of the alias:
-
-![alt text](https://github.com/mjs639/PUI2017_mjs639/blob/master/HW1_mjs639/CUSP%20Screenshots/pwd_showcase.png)
-
-One thing that has me confused is the fact that, when opening the bash_profile for editing (via 'nan0 ~/.bash_profile') I am able to see the image included above. However, when I open the file outside of this method, or if I call 'head bash_profile' or 'tail bash_profile' I get the following:
-
-![alt text](https://github.com/mjs639/PUI2017_mjs639/blob/master/HW1_mjs639/CUSP%20Screenshots/bash_profile_file.png)
-
-The environmental variable and alias are both working properly, but I can't figure out why they do not appear. 
-I also had a very difficult time getting the images to appear in my README file
+A note on the means: In the prompt, we were instructed to set each of the 50 random arrays so that they all had different means. To me, the simplest way to do this was to adjust the value of 'mu' by some factor of 'i', since each array had a unique value for 'i'. I chose my formula (mu + (10*i)) because I believe it showcased the spread of the data well; it was, however, a purely aesthetic value. I'm not sure if this was the intended outcome, but I hope it is at least an approximation of what we were prompted to do! 
