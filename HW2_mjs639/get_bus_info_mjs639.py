@@ -34,14 +34,14 @@ for i in indbus:
     dict = {}
     dict['Longitude'] = str(i['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])
     dict['Latitude'] = str(i['MonitoredVehicleJourney']['VehicleLocation']['Latitude'])
-    if i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'] is not None:
+    try:   
     	dict['Stop'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'])
-    else: 
-    	dict['Stop'] = 'N/A'
-    if i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'] is not None:
+    except BaseException:
+    	dict['Stop'] = 'N/A'	
+    try:
     	dict['Status'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'])
-    else: 
-    	dict['Status'] = 'N/A'
+    except BaseException:
+		dict['Status'] = 'N/A'  
     datalist.append(dict)
 
 df = pd.DataFrame(datalist)
@@ -52,7 +52,15 @@ df.to_csv(str(bus_line_csv))
 
 
 
+#Unused If Statements, for historical reference only
 
-
+# if i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'] is not None:
+#    	dict['Stop'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'])
+#    else: 
+#    	dict['Stop'] = 'N/A'
+# if i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'] is not None:
+#    	dict['Status'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'])
+#    else: 
+#    	dict['Status'] = 'N/A'
 
 
