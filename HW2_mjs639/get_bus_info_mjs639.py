@@ -34,8 +34,14 @@ for i in indbus:
     dict = {}
     dict['Longitude'] = str(i['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])
     dict['Latitude'] = str(i['MonitoredVehicleJourney']['VehicleLocation']['Latitude'])
-    dict['Stop'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'])
-    dict['Status'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'])
+    if i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'] is not None:
+    	dict['Stop'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['StopPointName'])
+    else: 
+    	dict['Stop'] = 'N/A'
+    if i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'] is not None:
+    	dict['Status'] = str(i['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance'])
+    else: 
+    	dict['Status'] = 'N/A'
     datalist.append(dict)
 
 df = pd.DataFrame(datalist)
