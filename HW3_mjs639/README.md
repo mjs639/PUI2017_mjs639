@@ -6,7 +6,7 @@ For assignment 1, I worked with Valeria after bootcamp. We parsed the informatio
 
 Assignment 2
 
-Valeria and I read through the prompt for Assignment 2 while working together on Assignment 1. We detemrined the output needed, and then worked together alongside Kent to create a hypothesis, clean the data, and plot it. We had a lot of trouble plotting the data, and would love to spend some time going over plotting techniques. A major part of our trouble was determining whether to plot via pandas or via matplotlib. 
+Valeria and I read through the prompt for Assignment 2 while working together on Assignment 1. We determined the output needed, and then worked together alongside Kent to create a hypothesis, clean the data, and plot it. We had a lot of trouble plotting the data, and would love to spend some time going over plotting techniques. A major part of our trouble was determining whether to plot via pandas or via matplotlib. 
 
 Assignment 3
 
