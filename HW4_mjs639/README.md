@@ -2,7 +2,7 @@ HW 4
 
 Assignment 1
 
-For Assignment 1, I worked alone. I reviewed the experiment set up, and analyzied what data was compiled and how it might inform the hypothesis that was to be tested. 
+For Assignment 1, I worked alone. I reviewed the experiment set up, and analyzied what data was compiled and how it might inform the hypothesis that was to be tested. I submitted a pull request with my analysis, but have also included a copy here.
 
 Assignment 2
 
