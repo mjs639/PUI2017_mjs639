@@ -13,9 +13,15 @@ For Assignment 2, I worked alone. This was more challenging than expected, as I 
 ANOVA	| 2, Exposure to 2 different cumulative sound exposure levels | Quantitative | 1, Number of injuries observed | Quantitative | 1, fish exposed to all of the same environmental variables except for the sound exposure | Quantitative | What is the threshold of injury in Chinook salmon from impulsive sounds? | The threshold of injury in Chinook salmon from impulsive sounds is consistent with the previously agreed upon and research threshold.  | 0.05 | http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0039593 |
   |||||||||
 
+| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Path Analysis	| 7: women age, place of residence, religion, socioeconomic status, use of family planning methods, women education, age at first marriage | Ordinal (age, socioeconomic status, education, age at first marriage), Categorical (place of residence, religion, use of family planning methods) | 1, How many unwanted births occur in Bangladesh  | Quantitative | 3: age (15 - 49), marital status (had been married), most recent pregnancy (less than 5 years) | Quantitative and Categorical | Can we showcase a correlation of an unwanted pregnancy with various social factors? | No predictive model can be developed based on the variables considered   | 0.01 for most correlates, though 0.05 for the correlation between age and likelihood of using a family planning method. Pearson's test was used to determine correlation levels.|  http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164007 |
+  |||||||||
 
-
-
+| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+Logistic Regression	| 1, Community Size (population) | Quantitative | 1, Scalar Stress Level (critical or non critical) | Nominal | 0 | N/A | Does population size impact the stress level of communities? | There is no relationship between the community size and the resulting scalar stress level within the community.  | 0.05 (for the chi-squared test being used to determine the degree to which the logistic regression model fits)  | http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091510#s2 |
+  |||||||||
 
 Assignment 3
 
