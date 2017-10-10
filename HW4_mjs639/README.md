@@ -25,7 +25,7 @@ Logistic Regression	| 1, Community Size (population) | Quantitative | 1, Scalar 
 
 Assignment 3
 
-I worked with Charlie Moffett on assignment 3. We went through the cells together, developed our null hypothesis, and inferred the testing methods based on the information provided to us in earlier cells. 
+I worked with Charlie Moffett on assignment 3. We went through the cells together, developed our null hypothesis, and inferred the testing methods based on the information provided to us in earlier cells. In downloading the notebook for submission, I removed all of the links to images that were unaccessible and preventing certain cells from running. 
 
 Assignment 4
 
