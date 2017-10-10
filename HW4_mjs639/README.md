@@ -8,6 +8,15 @@ Assignment 2
 
 For Assignment 2, I worked alone. This was more challenging than expected, as I do not have a lot of experience parsing through scientific research. Additionally, most of the experiments used multiple types of statistical analysis, and so it was tricky to isolate one specific test for my analysis. I did my best, but am still a bit unsure when it comes to the myriad options for statistical tests and how to classify them properly
 
+| **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be answered | _H0_ | alpha | link to paper **| 
+|:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
+ANOVA	| 2, Exposure to 2 different cumulative sound exposure levels | Quantitative | 1, Number of injuries observed | Quantitative | 1, fish exposed to all of the same environmental variables except for the sound exposure | Quantitative | What is the threshold of injury in Chinook salmon from impulsive sounds? | The threshold of injury in Chinook salmon from impulsive sounds is consistent with the previously agreed upon and research threshold.  | 0.05 | http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0039593 |
+  |||||||||
+
+
+
+
+
 Assignment 3
 
 I worked with Charlie Moffett on assignment 3. We went through the cells together, developed our null hypothesis, and inferred the testing methods based on the information provided to us in earlier cells. 
