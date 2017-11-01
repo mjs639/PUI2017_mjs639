@@ -15,3 +15,7 @@ c. Given your hypothesis, I would suggest using a Z-test.
 - The data is non-parametric and unpaired.
 
 - It allows testing for the difference of means between two samples.
+
+# FBB data is neither parametric nor non-parametric. Tests are. Data may follow a distributiong (e,g. gaussian) in which case a parametric test is apprioriatem, or not, in which case you should use a non-parametric test. 
+
+# FBB I also asked to give suggestions on how to improve the analysis
