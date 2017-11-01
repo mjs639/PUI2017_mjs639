@@ -26,3 +26,6 @@ H1: Tshort > Tlong
 To test this, I believe you simply need to calculate the ratio of rides that fall in both categories. You have already counted the number of each type, which you used to plot figure 1a. Rather than breaking down the data by date, you can simply determine the ratio by dividing both counts by the sample size. 
 
 Using the flowchart to determine which test you should run, I believe the best fit would be the chi-squared goodness of fit test, with Yates' correlation. We are looking at the ratios of short and long rides, and want to determine if the ratios found in the data are relevant. The hypothesis made requires a prior information (we assume that shorter trips are more prevalent), and we have one variable (the length of the trip) pulled from one sample, which two categories: short trip or long trip. 
+
+
+# FBB good, in the worded Null/Alternative "ratio" of trips should be "fraction" of trips, and this is a test for proportions. 
