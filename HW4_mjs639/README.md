@@ -23,6 +23,9 @@ Path Analysis	| 7: women age, place of residence, religion, socioeconomic status
 Logistic Regression	| 1, Community Size (population) | Quantitative | 1, Scalar Stress Level (critical or non critical) | Nominal | 0 | N/A | Does population size impact the stress level of communities? | There is no relationship between the community size and the resulting scalar stress level within the community.  | 0.05 (for the chi-squared test being used to determine the degree to which the logistic regression model fits)  | http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091510#s2 |
   |||||||||
 
+# FBB pretty good. quantitative, as opposed to categorical, is ok, but you could be more precise and state if it is continuous, ordinal, etc: in ANOVA the IV is one of 2 categories, so it is actuslly categorical (even if you can measure the exposure with a continuous variable). th number of injuries is numerical *discrete*. Nominal anc categorical are the same, so stick to one name.
+
+
 Assignment 3
 
 I worked with Charlie Moffett on assignment 3. We went through the cells together, developed our null hypothesis, and inferred the testing methods based on the information provided to us in earlier cells. In downloading the notebook for submission, I removed all of the links to images that were unaccessible and preventing certain cells from running. 
