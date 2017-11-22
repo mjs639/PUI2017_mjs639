@@ -1,3 +1,6 @@
+![alt text](https://raw.githubusercontent.com/mjs639/PUI2017_mjs639/master/CUSP%20Screenshots/plot_rh2684.JPG)
+
+
 https://github.com/mjs639/PUI2017_rh2684/tree/master/HW8_rh2684
 
 The plot is very easy to read, and readily expresses the data being represented. The axes labels are specific, and the legend is placed appropriately. The colors chosen for the regression line and scatterplot work well together, and are easy on the eyes. The use of red, which combines with blue to make purple, indirectly evokes a sense of water. Looking at your caption, I appreciate that you provided specific metrics to complement the visual. Though the plot speaks for itself, having the supplemental information made it easier to contextualize what the plot represents.
