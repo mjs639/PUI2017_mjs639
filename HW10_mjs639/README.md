@@ -1,1 +1,1 @@
-I worked alone on Task 1, and with with Kent and Matt on Tasks 2 and 3. 
+I worked alone on Task 1, with with Kent and Matt on Task 2, and Kent and Valeria on Task 3. 
