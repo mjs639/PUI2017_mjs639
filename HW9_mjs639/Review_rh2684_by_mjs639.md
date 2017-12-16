@@ -7,3 +7,7 @@ The plot is very easy to read, and readily expresses the data being represented.
 Looking at your caption, I appreciate that you provided specific metrics to complement the visual. Though the plot speaks for itself, having the supplemental information made it easier to contextualize what the plot represents.
 
 The one thing I would recommend changing would be to extend the y-axis to start a little closer to 0 so that we could more accurately visualize the rate of decline over the years. The shortened axis currently paints the decrease in a visually dramatic way, which could be interpreted as dishonest in certain contexts. Additionally, if this plot were being used to predict water consumption levels for the future, I would love to see the regression model extend beyond 2015, to showcase where our consumption levels will be in the near future. Lastly, though this is by no means a flaw in the plot, I as a viewer have a hard time conceptualizing billions of gallons. Perhaps it would be useful to provide a baseline for comparison!  
+
+# FBB 
+what is plotted is not a prediction though, it is a fit. The line is a fit to the data and it is plotted in the region where the data is measured, so it is a fit to the data. Labeling it as prediction would indicate that this is the prediction coming from a different set of exogenous variables and that is goes through the data exceptionally well, but I doubt that that is the case
+Again the labels are far far far too small
